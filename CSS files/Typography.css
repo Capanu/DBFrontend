@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+.title {
+    color: #1e1e1e;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 57px;
+}
+
+.subtitle {
+    color: #1e1e1e;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 42px;
+}
+
+.saying {
+    color: #1e1e1e;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 34px;
+}
+
+.payload-text {
+    color: #1e1e1e;
+    font-size: 14px;
+    font-family: 'Cardo', serif;
+    line-height: 20px;
+    box-sizing: content-box;
+    width: 780px;
+    margin: 0px 0px 100px 0px;
+
+}
+
+.quote {
+    color: #1e1e1e;
+    font-size: 28px;
+    font-family: 'Montserrat', serif;
+    font-style: italic;
+    box-sizing: content-box;
+    width: 34px;
+}
