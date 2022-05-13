@@ -25,14 +25,14 @@
             </div>
 
             <div class="final-four">
-                <input type="text" class="normal-input" placeholder="Please enter title"></input>
-                <input type="text" class="normal-input" placeholder="Please enter detail">
-                <input type="text" class="normal-input" placeholder="Please enter author">
-                <input type="text" class="normal-input" placeholder="Please enter date">
+                <input type="text" class="normal-input" id ="article-title" placeholder="Please enter title"></input>
+                <input type="text" class="normal-input" id="detail-article" placeholder="Please enter detail">
+                <input type="text" class="normal-input" id="article-author" placeholder="Please enter author">
+                <input type="text" class="normal-input" id="article-date" placeholder="Please enter date">
             </div>
 
-            <input type="text" class="url-input" placeholder="Please enter url">
-            <textarea class="contnet-input" placeholder="Please enter content"></textarea>
+            <input type="text" class="url-input" id="img-url-article"placeholder="Please enter url">
+            <textarea class="contnet-input" id="payload-article"placeholder="Please enter content"></textarea>
             <div class="final-four">
                 <button class="close">SAVE</button>
                 <button class="close">Cancel</button>
@@ -50,255 +50,13 @@
         </nav>
 
         <button class="add-article-button" id="myBtn">+Add new</button>
-
-
-        <article class="article-class">
-            <p class="title main-title">The complete guide to explore Transilvania, with your bike</p>
-            <div class="above-story">
-                <span class="bullet-text">Destination Europe</span>
-                <span>&#8226</span>
-                <span class="bullet-text">Added by</span>
-                <span class="author-text">Jonathan Mercadona</span>
-                <span>&#8226</span>
-                <span class="bullet-text">July 01, 2018</span>
-            </div>
-
-            <div class="edit-above-story">
-                <button class="button-item" id="myBtn">Edit</button>
-                <span>|</span>
-                <button class="button-item">Delete</button>
-            </div>
-
-            <img class="img-article" src="bike.jpg" alt="poza bicicleta">
-            <p class="payload-text">
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat non purus ac rhoncus.
-                Suspendisse potenti. Duis vulputate ut enim quis posuere. Vestibulum eget augue id est volutpat egestas
-                ac vel libero. Donec porttitor quam id nisl sagittis, vitae tempor lorem condimentum. Pellentesque
-                fringilla risus id condimentum ullamcorper. Cras eleifend massa non tortor condimentum porta. Nam id
-                turpis dui. In nunc nulla, imperdiet a pharetra vel, placerat quis nibh. Aenean id mollis ipsum, eget
-                elementum ipsum.
-
-                Vivamus purus arcu, blandit in finibus faucibus, placerat a nunc. Sed eu scelerisque enim, nec eleifend
-                quam. Nulla consectetur, dolor nec iaculis volutpat, nibh dolor dapibus felis, sed pellentesque nibh
-                lacus vel lectus. Morbi quis sollicitudin leo. Quisque tempus nisi venenatis diam sodales sagittis.
-                Praesent ac erat sit amet turpis efficitur aliquet. Aenean sed nisi massa. Sed aliquam erat a tincidunt
-                ultrices. Sed tellus nunc, aliquam sit amet mauris in, porta porttitor quam. Aliquam at congue est.
-
-                Morbi gravida justo at sapien bibendum, eu commodo eros bibendum. In consequat pharetra nisl, porttitor
-                feugiat metus dapibus id. Nunc egestas sollicitudin venenatis. Morbi at quam id eros fringilla aliquam
-                quis non mi. Pellentesque at imperdiet quam, vel molestie nisi. Integer suscipit sodales lacus at
-                imperdiet. Morbi ac accumsan lacus.
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus bibendum nulla vel tristique.
-                Vivamus semper mi turpis, finibus ultricies mi vehicula et. Pellentesque a semper orci. Ut suscipit
-                vestibulum suscipit. Suspendisse velit enim, semper sit amet mattis sed, efficitur sed orci. Quisque
-                maximus purus dui. Integer eget porttitor turpis. Proin pretium et risus in sagittis. Aliquam aliquam
-                felis eu interdum accumsan. Etiam maximus id neque at ullamcorper. Cras pellentesque leo nec quam
-                eleifend euismod.
-
-                Quisque quis mattis erat. Aenean aliquet ut purus ut posuere. Duis venenatis risus enim, quis tempus
-                elit euismod vel. Cras viverra congue erat, at facilisis neque vulputate consectetur. Duis pulvinar
-                lorem non ultricies sollicitudin. Nullam eu malesuada nunc, a vulputate nisi. Morbi non sagittis diam.
-                Morbi a turpis nec eros tincidunt accumsan at vel diam. </p>
-        </article>
-
-        <article class="article-class">
-            <p class="title main-title">Bucegi: Places you must visit before you die</p>
-            <div class="above-story">
-                <span class="bullet-text">Must Visit</span>
-                <span>&#8226</span>
-                <span class="bullet-text">Added by</span>
-                <span class="bullet-text">Jonathan Mercadona</span>
-                <span>&#8226</span>
-                <span class="bullet-text">June 30, 2018</span>
-            </div>
-
-            <div class="edit-above-story">
-                <button class="button-item" id="myBtn" >Edit</button>
-                <span>|</span>
-                <button class="button-item">Delete</button>
-            </div>
-
-            <img class="img-article" src="bucegi.jpg" alt="poza bucegi">
-            <p class="payload-text">
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat non purus ac rhoncus.
-                Suspendisse potenti. Duis vulputate ut enim quis posuere. Vestibulum eget augue id est volutpat egestas
-                ac vel libero. Donec porttitor quam id nisl sagittis, vitae tempor lorem condimentum. Pellentesque
-                fringilla risus id condimentum ullamcorper. Cras eleifend massa non tortor condimentum porta. Nam id
-                turpis dui. In nunc nulla, imperdiet a pharetra vel, placerat quis nibh. Aenean id mollis ipsum, eget
-                elementum ipsum.
-
-                Vivamus purus arcu, blandit in finibus faucibus, placerat a nunc. Sed eu scelerisque enim, nec eleifend
-                quam. Nulla consectetur, dolor nec iaculis volutpat, nibh dolor dapibus felis, sed pellentesque nibh
-                lacus vel lectus. Morbi quis sollicitudin leo. Quisque tempus nisi venenatis diam sodales sagittis.
-                Praesent ac erat sit amet turpis efficitur aliquet. Aenean sed nisi massa. Sed aliquam erat a tincidunt
-                ultrices. Sed tellus nunc, aliquam sit amet mauris in, porta porttitor quam. Aliquam at congue est.
-
-                Morbi gravida justo at sapien bibendum, eu commodo eros bibendum. In consequat pharetra nisl, porttitor
-                feugiat metus dapibus id. Nunc egestas sollicitudin venenatis. Morbi at quam id eros fringilla aliquam
-                quis non mi. Pellentesque at imperdiet quam, vel molestie nisi. Integer suscipit sodales lacus at
-                imperdiet. Morbi ac accumsan lacus.
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus bibendum nulla vel tristique.
-                Vivamus semper mi turpis, finibus ultricies mi vehicula et. Pellentesque a semper orci. Ut suscipit
-                vestibulum suscipit. Suspendisse velit enim, semper sit amet mattis sed, efficitur sed orci. Quisque
-                maximus purus dui. Integer eget porttitor turpis. Proin pretium et risus in sagittis. Aliquam aliquam
-                felis eu interdum accumsan. Etiam maximus id neque at ullamcorper. Cras pellentesque leo nec quam
-                eleifend euismod.
-
-                Quisque quis mattis erat. Aenean aliquet ut purus ut posuere. Duis venenatis risus enim, quis tempus
-                elit euismod vel. Cras viverra congue erat, at facilisis neque vulputate consectetur. Duis pulvinar
-                lorem non ultricies sollicitudin. Nullam eu malesuada nunc, a vulputate nisi. Morbi non sagittis diam.
-                Morbi a turpis nec eros tincidunt accumsan at vel diam. </p>
-        </article>
-
-        <article class="article-class">
-            <p class="title main-title">Romania: The land of dreams</p>
-            <div class="above-story">
-                <span class="bullet-text">Village</span>
-                <span>&#8226</span>
-                <span class="bullet-text">Added by</span>
-                <span class="author-text">Jonathan Mercadona</span>
-                <span>&#8226</span>
-                <span class="bullet-text">June 17, 2018</span>
-            </div>
-
-            <div class="edit-above-story">
-                <button class="button-item" id="myBtn">Edit</button>
-                <span>|</span>
-                <button class="button-item">Delete</button>
-            </div>
-
-            <img class="img-article" src="village.jpg" alt="poza village">
-            <p class="payload-text">
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat non purus ac rhoncus.
-                Suspendisse potenti. Duis vulputate ut enim quis posuere. Vestibulum eget augue id est volutpat egestas
-                ac vel libero. Donec porttitor quam id nisl sagittis, vitae tempor lorem condimentum. Pellentesque
-                fringilla risus id condimentum ullamcorper. Cras eleifend massa non tortor condimentum porta. Nam id
-                turpis dui. In nunc nulla, imperdiet a pharetra vel, placerat quis nibh. Aenean id mollis ipsum, eget
-                elementum ipsum.
-
-                Vivamus purus arcu, blandit in finibus faucibus, placerat a nunc. Sed eu scelerisque enim, nec eleifend
-                quam. Nulla consectetur, dolor nec iaculis volutpat, nibh dolor dapibus felis, sed pellentesque nibh
-                lacus vel lectus. Morbi quis sollicitudin leo. Quisque tempus nisi venenatis diam sodales sagittis.
-                Praesent ac erat sit amet turpis efficitur aliquet. Aenean sed nisi massa. Sed aliquam erat a tincidunt
-                ultrices. Sed tellus nunc, aliquam sit amet mauris in, porta porttitor quam. Aliquam at congue est.
-
-                Morbi gravida justo at sapien bibendum, eu commodo eros bibendum. In consequat pharetra nisl, porttitor
-                feugiat metus dapibus id. Nunc egestas sollicitudin venenatis. Morbi at quam id eros fringilla aliquam
-                quis non mi. Pellentesque at imperdiet quam, vel molestie nisi. Integer suscipit sodales lacus at
-                imperdiet. Morbi ac accumsan lacus.
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus bibendum nulla vel tristique.
-                Vivamus semper mi turpis, finibus ultricies mi vehicula et. Pellentesque a semper orci. Ut suscipit
-                vestibulum suscipit. Suspendisse velit enim, semper sit amet mattis sed, efficitur sed orci. Quisque
-                maximus purus dui. Integer eget porttitor turpis. Proin pretium et risus in sagittis. Aliquam aliquam
-                felis eu interdum accumsan. Etiam maximus id neque at ullamcorper. Cras pellentesque leo nec quam
-                eleifend euismod.
-
-                Quisque quis mattis erat. Aenean aliquet ut purus ut posuere. Duis venenatis risus enim, quis tempus
-                elit euismod vel. Cras viverra congue erat, at facilisis neque vulputate consectetur. Duis pulvinar
-                lorem non ultricies sollicitudin. Nullam eu malesuada nunc, a vulputate nisi. Morbi non sagittis diam.
-                Morbi a turpis nec eros tincidunt accumsan at vel diam. </p>
-        </article>
-
-        <article class="article-class">
-            <p class="title main-title">Sarmale - stuffed cabbage rolls Good or bad?</p>
-            <div class="above-story">
-                <span class="bullet-text">Food</span>
-                <span>&#8226</span>
-                <span class="bullet-text">Added by</span>
-                <span class="author-text">Jonathan Mercadona</span>
-                <span>&#8226</span>
-                <span class="bullet-text">Dcember 29, 2017</span>
-            </div>
-
-            <div class="edit-above-story">
-                <button class="button-item" id="myBtn">Edit</button>
-                <span>|</span>
-                <button class="button-item">Delete</button>
-            </div>
-
-            <img class="img-article" src="sarmale.jpg" alt="poza sarmale">
-            <p class="payload-text">
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat non purus ac rhoncus.
-                Suspendisse potenti. Duis vulputate ut enim quis posuere. Vestibulum eget augue id est volutpat egestas
-                ac vel libero. Donec porttitor quam id nisl sagittis, vitae tempor lorem condimentum. Pellentesque
-                fringilla risus id condimentum ullamcorper. Cras eleifend massa non tortor condimentum porta. Nam id
-                turpis dui. In nunc nulla, imperdiet a pharetra vel, placerat quis nibh. Aenean id mollis ipsum, eget
-                elementum ipsum.
-
-                Vivamus purus arcu, blandit in finibus faucibus, placerat a nunc. Sed eu scelerisque enim, nec eleifend
-                quam. Nulla consectetur, dolor nec iaculis volutpat, nibh dolor dapibus felis, sed pellentesque nibh
-                lacus vel lectus. Morbi quis sollicitudin leo. Quisque tempus nisi venenatis diam sodales sagittis.
-                Praesent ac erat sit amet turpis efficitur aliquet. Aenean sed nisi massa. Sed aliquam erat a tincidunt
-                ultrices. Sed tellus nunc, aliquam sit amet mauris in, porta porttitor quam. Aliquam at congue est.
-
-                Morbi gravida justo at sapien bibendum, eu commodo eros bibendum. In consequat pharetra nisl, porttitor
-                feugiat metus dapibus id. Nunc egestas sollicitudin venenatis. Morbi at quam id eros fringilla aliquam
-                quis non mi. Pellentesque at imperdiet quam, vel molestie nisi. Integer suscipit sodales lacus at
-                imperdiet. Morbi ac accumsan lacus.
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus bibendum nulla vel tristique.
-                Vivamus semper mi turpis, finibus ultricies mi vehicula et. Pellentesque a semper orci. Ut suscipit
-                vestibulum suscipit. Suspendisse velit enim, semper sit amet mattis sed, efficitur sed orci. Quisque
-                maximus purus dui. Integer eget porttitor turpis. Proin pretium et risus in sagittis. Aliquam aliquam
-                felis eu interdum accumsan. Etiam maximus id neque at ullamcorper. Cras pellentesque leo nec quam
-                eleifend euismod.
-
-                Quisque quis mattis erat. Aenean aliquet ut purus ut posuere. Duis venenatis risus enim, quis tempus
-                elit euismod vel. Cras viverra congue erat, at facilisis neque vulputate consectetur. Duis pulvinar
-                lorem non ultricies sollicitudin. Nullam eu malesuada nunc, a vulputate nisi. Morbi non sagittis diam.
-                Morbi a turpis nec eros tincidunt accumsan at vel diam. </p>
-        </article>
-
+        <div id="page-article"></div>
     </main>
     <div class="next-prev subtitle" id="nexter">
         <span>previous</span>
         <span>next</span>
     </div>
-    
-    <script>
-        
-        
-         var myContnt = document.getElementById("my-contnent-to-hide");
-         var next_prev = document.getElementById("nexter");
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        modal.style.display = "none";
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var save = document.getElementsByClassName("close")[0];
-        var closer = document.getElementsByClassName("close")[1];
-
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function () {
-            next_prev.style.display="none";
-            myContnt.style.display="none";
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        save.onclick = function () {
-            modal.style.display = "none";
-            myContnt.style.display="flex";
-            next_prev.style.display="flex";
-        }
-        closer.onclick = function () {
-            modal.style.display = "none";
-            myContnt.style.display="flex";
-            next_prev.style.display="flex";
-        }
-
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

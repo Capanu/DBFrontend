@@ -1,0 +1,49 @@
+{
+    "articles": [
+      {
+        "title": "The complete guide to explore Transilvania, with your bike",
+        "type": "Destination Europe",
+        "author": "Jonathan Mercadona",
+        "date": "July 02, 2018",
+        "img": "bike.jpg",
+        "payload": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. GENIUSSS",
+        "id": 1
+      },
+      {
+        "title": "Bucegi: Places you must visit before you die",
+        "type": "Must Visit",
+        "author": "Jonathan Mercadona",
+        "date": "June 30, 2018",
+        "img": "bucegi.jpg",
+        "payload": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.MARGAs",
+        "id": 2
+      },
+      {
+        "id": 3,
+        "title": "Romania: The land of dreams",
+        "type": "Village",
+        "author": "Jonathan Mercadona",
+        "date": "June 17, 2018",
+        "img": "village.jpg",
+        "payload": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+        "id": 4,
+        "title": "Sarmale - stuffed cabbage rolls Good or bad?",
+        "type": "Food",
+        "author": "Jonathan Mercadona",
+        "date": "December 29, 2017",
+        "img": "sarmale.jpg",
+        "payload": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+        "title": "Dogs",
+        "type": "Visiting Dogs",
+        "author": "Capanu Andrei",
+        "date": "12 May 2023",
+        "img": "https://images.dog.ceo/breeds/terrier-american/n02093428_11160.jpg",
+        "payload": "Am mers la sa vizitez niste catelusi si ce sa vezi! Erau toti adunati parca asteptandu-ma!",
+        "id": 147584293432
+      }
+    ]
+  }
