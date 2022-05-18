@@ -27,12 +27,14 @@ async function saveArticle(article) {
 	let payload = document.getElementById("payload-article");
 
 	const body = {
+		id: article.id,
 		title: title.value,
-		type: type.value,
+		tag: type.value,
 		author: author.value,
 		date: date.value,
-		img: img.value,
-		payload: payload.value,
+		imgUrl: img.value,
+		saying: "Love at first bite.",
+		content: payload.value,
 	};
 	const response = await fetch("http://localhost:3000/articles/" + article.id, {
 		method: "PUT",
@@ -64,11 +66,12 @@ async function addArticle() {
 	const body = {
 		id: generatedId,
 		title: title.value,
-		type: type.value,
+		tag: type.value,
 		author: author.value,
 		date: date.value,
-		img: img.value,
-		payload: payload.value,
+		imgUrl: img.value,
+		content: payload.value,
+		saying: "Love at first bite.",
 	};
 
 	const response = await fetch("http://localhost:3000/articles", {
@@ -101,11 +104,11 @@ function editArticle(article) {
 	let payload = document.getElementById("payload-article");
 
 	title.value = article.title;
-	type.value = article.type;
+	type.value = article.tag;
 	author.value = article.author;
 	date.value = article.date;
-	img.value = article.img;
-	payload.value = article.payload;
+	img.value = article.imgUrl;
+	payload.value = article.content;
 
 	save.onclick = function () {
 		saveArticle(article);
